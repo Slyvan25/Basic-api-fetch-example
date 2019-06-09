@@ -100,7 +100,7 @@ th {
   height: 1.5em;
   width: 1.5em;
   border-radius: 5em;
-  position: absolute;
+  position: fixed;
   bottom: 1em;
   right: 1em;
   text-align: center;
