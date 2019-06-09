@@ -1,0 +1,109 @@
+body
+{
+  margin: 0;
+  background-color: #216323;
+}
+
+modal
+{
+  background-color: #fff;
+  display: block;
+  position: fixed;
+  z-index: 999;
+  width: 50rem;
+  box-shadow: #000 0px 0px 15px 1px;
+  transform: translate(0%,8%);
+  margin: 1em;
+}
+
+modal > nav
+{
+  color: #fff;
+  background-color: #631739;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+modal > nav > a
+{
+  cursor: pointer;
+}
+
+modal > div 
+{
+  padding: 1em;
+}
+
+nav
+{
+  line-height: 3;
+  padding: 0 2% 0 2%;
+  display: flex;
+  width: auto;
+}
+
+#table
+{
+  display: none;
+  border-collapse: collapse;
+  box-shadow: rgba(0, 0, 0, 0.502) 0 0 9px 0;
+  background-color: #fff;
+  transition: .5s filter;
+}
+
+.items > th
+{
+  background-color: #4CAF50 !important;
+  color: white;
+}
+
+td, th {
+    border: 0px;
+    padding: 8px !important;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd !important; cursor: pointer;}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: rgb(39, 39, 39);
+}
+
+.center
+{
+  display: flex;
+  justify-content: center;
+}
+
+#loading-img
+{
+  z-index: 999;
+  position: absolute;
+  transform-origin: 0px 0px 0px !important;
+  /* height: 100vh; */
+  /* decoration */
+  background-color: #fff;
+  border-radius: 50em;
+  height: 35em;
+  margin-top: calc(100% - 90%);
+}
+
+.addItem
+{
+  background-color: #631739;
+  color: #fff;
+  height: 1.5em;
+  width: 1.5em;
+  border-radius: 5em;
+  position: absolute;
+  bottom: 1em;
+  right: 1em;
+  text-align: center;
+  font-size: xx-large;
+  cursor: pointer;
+}
